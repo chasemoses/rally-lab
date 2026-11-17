@@ -1,0 +1,8 @@
+@Rally.Api_HostAddress = http://localhost:5112
+
+GET {{Rally.Api_HostAddress}}/events/
+Accept: application/json
+
+###
+
+GET {{Rally.Api_HostAddress}}/health/
